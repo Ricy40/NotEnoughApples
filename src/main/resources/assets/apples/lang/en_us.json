@@ -1,0 +1,25 @@
+{
+  "tooltip.apples.hold_shift" : "Hold \u00A7eShift \u00A77for More Information",
+
+  "apples_tab" : "Not Enough Apples",
+
+  "item.apples.apple_ingot" : "Apple Ingot",
+  "item.apples.apple_nugget" : "Apple Nugget",
+  "item.apples.apple_on_a_stick" : "Apple on a Stick",
+  "item.apples.apple_sword" : "Apple Sword",
+  "item.apples.bucket_of_apple" : "Bucket Of Apple",
+  "item.apples.copper_apple" : "Copper Apple",
+  "item.apples.diamond_apple" : "Diamond Apple",
+  "item.apples.golden_lapis_apple" : "When-you-don't-have-enough-gold-and-you-use-some-lapis-instead-Apple",
+  "item.apples.iron_apple" : "Iron Apple",
+  "item.apples.lapis_apple" : "Lapis Apple",
+  "item.apples.netherite_apple" : "Netherite Apple",
+  "item.apples.notch_apple" : "Notch Apple",
+  "item.apples.orange_apple" : "Orange Apple",
+  "item.apples.overpriced_apple" : "Overpriced Apple",
+  "item.apples.pine_apple" : "Pine Apple",
+  "item.apples.raw_copper_apple" : "Raw Copper Apple",
+  "item.apples.raw_golden_apple" : "Raw Golden Apple",
+  "item.apples.raw_iron_apple" : "Raw Iron Apple",
+  "item.apples.red_carrot" : "Red Carrot"
+}
