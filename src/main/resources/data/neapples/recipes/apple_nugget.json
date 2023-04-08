@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "apple_nugget",
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": "neapples:apple_nugget"
+}

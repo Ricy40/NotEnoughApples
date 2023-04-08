@@ -6,8 +6,8 @@ plugins {
 }
 
 version = '1.0'
-group = 'com.ricy40.apples' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'apples'
+group = 'com.ricy40.neapples' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'neapples'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -24,10 +24,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'apples'
+            property 'forge.enabledGameTestNamespaces', 'neapples'
 
             mods {
-                apples {
+                neapples {
                     source sourceSets.main
                 }
             }
@@ -40,10 +40,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'apples'
+            property 'forge.enabledGameTestNamespaces', 'neapples'
 
             mods {
-                apples {
+                neapples {
                     source sourceSets.main
                 }
             }
@@ -56,10 +56,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'apples'
+            property 'forge.enabledGameTestNamespaces', 'neapples'
 
             mods {
-                apples {
+                neapples {
                     source sourceSets.main
                 }
             }
@@ -72,10 +72,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'apples', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'neapples', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                apples {
+                neapples {
                     source sourceSets.main
                 }
             }
@@ -97,12 +97,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "apples",
-                "Specification-Vendor"    : "applessareus",
+                "Specification-Title"     : "neapples",
+                "Specification-Vendor"    : "neapplessareus",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "applessareus",
+                "Implementation-Vendor"   : "neapplessareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

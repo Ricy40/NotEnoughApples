@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:fishing_rod"
+    },
+    "X": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "# ",
+    " X"
+  ],
+  "result": {
+    "item": "neapples:apple_on_a_stick"
+  },
+  "show_notification": true
+}

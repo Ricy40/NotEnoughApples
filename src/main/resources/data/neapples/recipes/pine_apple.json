@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_dye"
+    },
+    "Y": {
+      "item": "minecraft:lime_dye"
+    },
+    "X": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "YYY",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "neapples:pine_apple"
+  },
+  "show_notification": true
+}

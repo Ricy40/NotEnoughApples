@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apple_ingot",
+  "key": {
+    "#": {
+      "item": "neapples:apple_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "neapples:apple_ingot"
+  },
+  "show_notification": true
+}
