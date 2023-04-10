@@ -1,0 +1,28 @@
+{
+  "tooltip.neapples.hold_shift" : "Утримуйте \"Shift\" для подробиць",
+
+  "apples_tab" : "Not Enough Apples",
+
+  "item.neapples.apple_ingot" : "Яблучний злиток",
+  "item.neapples.apple_nugget" : "Яблучний самородок",
+  "item.neapples.apple_on_a_stick" : "Яблуко на паличці",
+  "item.neapples.apple_sword" : "Яблучний меч",
+  "item.neapples.bucket_of_apple" : "Відро яблук",
+  "item.neapples.copper_apple" : "Мідне яблуко",
+  "item.neapples.diamond_apple" : "Діамантове яблуко",
+  "item.neapples.golden_lapis_apple" : "Патріотичне яблуко",
+  "item.neapples.iron_apple" : "Залізне яблуко",
+  "item.neapples.lapis_apple" : "Лазуритне яблуко",
+  "item.neapples.netherite_apple" : "Незеритове яблуко",
+  "item.neapples.notch_apple" : "Яблуко Нотча",
+  "item.neapples.orange_apple" : "Помаранчеве яблуко",
+  "item.neapples.overpriced_apple" : "Задороге яблуко",
+  "item.neapples.pine_apple" : "Ананас",
+  "item.neapples.raw_copper_apple" : "Необроблене мідне яблуко",
+  "item.neapples.raw_golden_apple" : "Необроблене золоте яблуко",
+  "item.neapples.raw_iron_apple" : "Необроблене залізне яблуко",
+  "item.neapples.red_carrot" : "Червона морква",
+
+  "death.attack.neapples.overpriced_apple": "%1$s намагався з'їсти задороге яблуко, але вибухнув",
+  "death.attack.neapples.overpriced_apple.player": "%1$s намагався з'їсти задороге яблуко, але вибухнув %2$s"
+}
