@@ -1,5 +1,6 @@
 package com.ricy40.neapples;
 
+import com.ricy40.neapples.custombits.BucketFoodItem;
 import com.ricy40.neapples.custombits.OverpricedAppleItem;
 import com.ricy40.neapples.custombits.RodFoodItem;
 import net.minecraft.world.food.Foods;
@@ -24,13 +25,13 @@ public class ModItems {
     public static final RegistryObject<Item> APPLE_INGOT = registerItem("apple_ingot",
             () -> new Item(new Item.Properties().food(ModFoods.APPLE_INGOT)));
     public static final RegistryObject<Item> APPLE_NUGGET = registerItem("apple_nugget",
-            () -> new RodFoodItem(new Item.Properties().food(ModFoods.APPLE_NUGGET)));
+            () -> new Item(new Item.Properties().food(ModFoods.APPLE_NUGGET)));
     public static final RegistryObject<Item> APPLE_ON_A_STICK = registerItem("apple_on_a_stick",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new RodFoodItem(new Item.Properties().stacksTo(1).food(Foods.APPLE)));
     public static final RegistryObject<Item> APPLE_SWORD = registerItem("apple_sword",
             () -> new SwordItem(Tiers.WOOD, 4, -2.4F, new Item.Properties().food(ModFoods.APPLE_SWORD)));
     public static final RegistryObject<Item> BUCKET_OF_APPLE = registerItem("bucket_of_apple",
-            () -> new Item(new Item.Properties()));
+            () -> new BucketFoodItem(new Item.Properties().stacksTo(1).food(Foods.APPLE)));
     public static final RegistryObject<Item> COPPER_APPLE = registerItem("copper_apple",
             () -> new Item(new Item.Properties().food(ModFoods.COPPER_APPLE)));
     public static final RegistryObject<Item> DIAMOND_APPLE = registerItem("diamond_apple",

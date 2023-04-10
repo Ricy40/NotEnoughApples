@@ -21,5 +21,8 @@
   "item.neapples.raw_copper_apple" : "Raw Copper Apple",
   "item.neapples.raw_golden_apple" : "Raw Golden Apple",
   "item.neapples.raw_iron_apple" : "Raw Iron Apple",
-  "item.neapples.red_carrot" : "Red Carrot"
+  "item.neapples.red_carrot" : "Red Carrot",
+
+  "death.attack.neapples.overpriced_apple": "%1$s tried to eat an overpriced apple but blew up",
+  "death.attack.neapples.overpriced_apple.player": "%1$s tried to eat an overpriced apple but blew up %2$s"
 }
